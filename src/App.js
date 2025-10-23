@@ -4,7 +4,7 @@ function StudentTable() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("https://backendstudenttest2-jfpi18p6.b4a.run/students")
+    fetch("https://backendstudenttest2-6k9d6xem.b4a.run/students")
       .then(res => res.json())
       .then(data => setStudents(data));
   }, []);
